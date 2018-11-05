@@ -1,0 +1,17 @@
+---
+- hosts: local
+  roles:
+    - devsoul.codeception
+    - devsoul.composer
+    - devsoul.phan
+    - devsoul.phing
+    - devsoul.phpcodesniffer
+    - devsoul.phpcpd
+    - devsoul.phpcsfixer
+    - devsoul.phploc
+    - devsoul.phpmd
+    - devsoul.phpmetrics
+    - devsoul.phpstan
+    - devsoul.phpunit
+    - devsoul.psalm
+    - devsoul.psysh
