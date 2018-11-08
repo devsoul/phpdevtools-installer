@@ -7,6 +7,7 @@
     - devsoul.phing
     - devsoul.phpcodesniffer
     - devsoul.phpcpd
+    - devsoul.phpcov
     - devsoul.phpcsfixer
     - devsoul.phploc
     - devsoul.phpmd
@@ -15,3 +16,4 @@
     - devsoul.phpunit
     - devsoul.psalm
     - devsoul.psysh
+    - devsoul.shaku

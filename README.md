@@ -12,10 +12,21 @@ Clone the repo & run the installer
 ---
     git clone git@github.com:devsoul/phpdevtools-installer.git phpdevtools-installer
     cd phpdevtools-installer
-    ./install.sh
+    make install
 
-Check if the suite it's installed:
+Delete the installed phpdevtools
 ---
+    make remove
+
+Reinstall phpdevtools
+---
+
+    make reinstall
+
+Check if the suite is installed:
+---
+    ls -lt /usr/local/bin | head -20
+
 Please visit https://github.com/devsoul/ansible-role-phpdevtools and get list of the supported php tools
 
 License
